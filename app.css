@@ -1,0 +1,53 @@
+body{
+    background-color:#967aa1;
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+}
+
+#mainNavbar{
+    font-size:1.5rem;
+    font-weight:100;
+   background:#9b5de5;;
+}
+#mainNavbar .nav-link{
+    color:white;
+}
+#mainNavbar .nav-link:hover{
+    color:#ffa6c1;
+}
+#mainNavbar .navbar-brand{
+    color:#ff9e00;
+    font-size:2rem;
+    font-weight:100;
+}
+#quote1 h2{
+   font-weight: 100;
+   font-size:2rem;
+}
+#quote1 span{
+    color:#00537a;
+}
+#quote2 span{
+    color:#00537a;
+}
+ h1{
+    color:white;
+    font-weight: 100;
+}
+.culture{
+    color:#abc4ff;
+    font-weight: 100;
+    line-height: 2;
+}
+.paraculture{
+    margin:100px 0 50px 0;
+}
+
+@media (max-width:970px)
+{
+    #quote1 h2{
+        font-weight: 100;
+        font-size:1.6rem;
+     }
+}
+
